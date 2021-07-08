@@ -205,7 +205,8 @@ You probably got:
 <center><h1>404 Not Found</h1></center>
 <hr><center>nginx</center>
 </body>
-</html>```
+</html>
+```
 
 Nothing happens, it fails, it means the loadbalancer does not know what to do with the request.
 
@@ -214,10 +215,17 @@ Now try:
 ```
 $ curl localhost/bar
 bar
+```
+```
 $ curl localhost/foo
 foo
+```
+
+```
 $ curl localhost/baz
+
 baz
 ```
+
 
 
