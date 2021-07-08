@@ -66,7 +66,7 @@ the context should look like this:
 ```
 $ kubectl config get-contexts
 CURRENT   NAME                                                                       CLUSTER                                                                    AUTHINFO                                                                   NAMESPACE
-          platform-prod_us-central1-c_production-platform-us-central1-c              platform-prod_us-central1-c_production-platform-us-central1-c   gke_pearll-platform-prod_us-central1-c_production-platform-us-central1-c
+          platform-prod_us-central1-c_production-platform-us-central1-c              platform-prod_us-central1-c_production-platform-us-central1-c   platform-prod_us-central1-c_production-platform-us-central1-c
 *         kind-sandbox-k8s                                                           kind-sandbox-k8s                                                           kind-sandbox-k8s
           kubernetes-admin@kubernetes                                                kubernetes                                                                 kubernetes-admin
 ```
